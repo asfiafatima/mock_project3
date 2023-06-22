@@ -9,7 +9,7 @@ conn = pg2.connect(database=database, user=user, password=password)
 @app.route("/")
 def home():
     #"""List all available api routes."""
-      return render_template("index.html")
+    return render_template("index.html")
 
     #return (
         #f"Available Routes:<br/>"
